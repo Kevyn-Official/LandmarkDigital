@@ -48,33 +48,33 @@
       <div class="contact-divider"></div>
       <p class="contact-detail" style="font-size:0.8rem;">We typically respond within one business day. For urgent requests, give us a call.</p>
     </div>
-    <div class="contact-form">
+    <form id="contactForm" action="https://formsubmit.co/info@landmarkdigital.net " method="POST">
       <h3>Send us a message</h3>
       <div class="form-2col">
         <div class="form-group">
           <label>First name</label>
-          <input type="text" placeholder="Jane">
+          <input type="text" name="first_name" placeholder="Jane">
         </div>
         <div class="form-group">
           <label>Last name</label>
-          <input type="text" placeholder="Smith">
+          <input type="text" name="last_name" placeholder="Smith">
         </div>
       </div>
       <div class="form-group">
         <label>Email address</label>
-        <input type="email" placeholder="jane@yourbusiness.com">
+        <input type="email" name="email" placeholder="jane@yourbusiness.com">
       </div>
       <div class="form-group">
         <label>Business name</label>
-        <input type="text" placeholder="Your Business Ltd.">
+        <input type="text" name="business_name" placeholder="Your Business Ltd.">
       </div>
       <div class="form-group">
         <label>Message</label>
-        <textarea placeholder="Tell us about your campaign — goals, timing, budget, or any questions you have..."></textarea>
+        <textarea name="message" placeholder="Tell us about your campaign — goals, timing, budget, or any questions you have..."></textarea>
       </div>
-      <button class="form-submit" type="button">Submit message</button>
+      <button class="form-submit" type="submit">Submit message</button>
       <p class="form-note">We'll be in touch shortly.</p>
-    </div>
+    </form>
   </div>
 </section>
 
