@@ -139,6 +139,8 @@
 }
 </style>
 
+<div class="dual-bg-wrap">
+
 <!-- PHOTO FEATURE -->
 <section class="photo-feature">
   <div class="photo-feature-grid">
@@ -202,6 +204,23 @@
     </div>
   </div>
 </section>
+
+<style>
+  .dual-bg-wrap {
+  background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+    url('images/victoria.jpg') center/cover no-repeat;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.dual-bg-wrap .photo-feature,
+.dual-bg-wrap .testimonials-section {
+  background: none;
+  border: none;
+}
+</style>
+
+</div>
 
 <!-- CTA BANNER -->
 <div class="cta-banner">
